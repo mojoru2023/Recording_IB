@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4342b799-3db0-4603-a98a-fedd969443b6" name="Default Changelist" comment="" />
+    <list default="true" id="4342b799-3db0-4603-a98a-fedd969443b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo_trading.py" beforeDir="false" afterPath="$PROJECT_DIR$/Demo_trading.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/note(IB).txt" beforeDir="false" afterPath="$PROJECT_DIR$/note(IB).txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/交易日记.xls" beforeDir="false" afterPath="$PROJECT_DIR$/交易日记.xls" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1R6C45YV4AYXr0tjndivoSbXoK5" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -25,7 +35,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.getinto_Csv">
+  <component name="RunManager" selected="Python.Demo_trading">
     <configuration name="Demo_trading" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Recording_IB" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -70,8 +80,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.getinto_Csv" />
         <item itemvalue="Python.Demo_trading" />
+        <item itemvalue="Python.getinto_Csv" />
       </list>
     </recent_temporary>
   </component>
@@ -87,5 +97,16 @@
       <updated>1568977964607</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
