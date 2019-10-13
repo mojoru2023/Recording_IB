@@ -5,8 +5,8 @@ import pymysql
 
 
 First_Value=1000000
-Now_total_Value="970074"
-Holding_value="536223"
+Now_total_Value="978021"
+Holding_value="539268"
 
 
 def remove_douhao(num):
