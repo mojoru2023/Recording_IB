@@ -5,7 +5,7 @@ import pymysql
 
 
 First_Value=1000000
-Now_total_Value="1021067"
+Now_total_Value="977025"
 Holding_value="526920"
 
 
