@@ -24,3 +24,8 @@
 #日股
 0 19 1,15 * *  /usr/local/bin/python3.6 /root/cronb_jsMons.py
 0,30  0-6 * * 1-5   /usr/local/bin/python3.6 /root/jsP_Mons.py
+
+
+#FX
+0 19 15 * *  /usr/local/bin/python3.6 /root/FX_cron.py
+0,59 * * * 1-5   /usr/local/bin/python3.6 /root/FX_daily.py
