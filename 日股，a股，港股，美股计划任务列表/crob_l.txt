@@ -28,4 +28,31 @@
 
 #FX
 0 19 15 * *  /usr/local/bin/python3.6 /root/FX_cron.py
-0,59 * * * 1-5   /usr/local/bin/python3.6 /root/FX_daily.py
+
+*/40 *   * * 1-5   /usr/local/bin/python3.6 /root/FX_daily.py
+
+centos 7 
+
+
+crontab -e
+
+
+这样重启才有效
+
+systemctl start crond.service
+
+systemctl restart crond.service
+
+
+　　　　30    3    10,20   *    *     ls     每月10号及20号的3：30执行ls命令[注：“，”用来连接多个不连续的时段]
+
+    　　 25    8-11  *   *    *     ls       每天8-11点的第25分钟执行ls命令[注：“-”用来连接连续的时段]
+
+ 
+
+    　　 */15   *       *           *     *     ls     每15分钟执行一次ls命令 [即每个小时的第0 15 30 45 60分钟执行ls命令 ]
+
+ 
+
+     　　30   6     */10         *     *     ls       每个月中，每隔10天6:30执行一次ls命令[即每月的1、11、21、31日是的6：30执行一次ls 命令。 ]
+
