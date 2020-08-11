@@ -56,3 +56,21 @@ systemctl restart crond.service
 
      　　30   6     */10         *     *     ls       每个月中，每隔10天6:30执行一次ls命令[即每月的1、11、21、31日是的6：30执行一次ls 命令。 ]
 
+
+
+20 17 2 * * /usr/bin/python3  /root/YD_mp3Cards/日语mp3单词库/YD_jans.py
+20 17 2 * * /usr/bin/python3   /root/YD_mp3Cards/英语mp3单词库/YD_english.py
+
+
+
+10 7 9 * * /usr/bin/python3  /root/YD_mp3Cards/手头N2的单词MP3/YD_N2_.py
+21 16 9 * * /usr/bin/python3   /root/YD_mp3Cards/N3大辞泉单词MP3/YD_N3_.py
+6 16 9 * * /usr/bin/python3  /root/YD_mp3Cards/3种教材的所有单词MP3/YD_3T.py
+
+
+6 16 9 * * /usr/bin/python3  /root/YD_mp3Cards/英语mp3单词库/3w单词/YD_3wEng.py
+6 16 9 * * /usr/bin/python3  /root/YD_mp3Cards/英语mp3单词库/国名州名市名/YD_NSC.py
+6 16 9 * * /usr/bin/python3  /root/YD_mp3Cards/英语mp3单词库/欧美常见人名/YD_uPN.py
+
+
+
