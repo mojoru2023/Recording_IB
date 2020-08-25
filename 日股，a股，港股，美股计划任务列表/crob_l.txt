@@ -22,8 +22,8 @@
 0,30  1-8 * * 1-5   /usr/local/bin/python3.6 /root/hk50_Daily.py
 
 #日股
-0 19 1,15 * *  /usr/local/bin/python3.6 /root/cronb_jsMons.py
-0,30  0-6 * * 1-5   /usr/local/bin/python3.6 /root/jsP_Mons.py
+0 19 1,15 * *  /usr/local/bin/python3.6 /root/cronb_jspMons.py
+0,30  0-6 * * 1-5   /usr/local/bin/python3.6 /root/j_sPool_M.py
 
 
 #FX
@@ -68,9 +68,9 @@ systemctl restart crond.service
 6 16 9 * * /usr/bin/python3  /root/YD_mp3Cards/3种教材的所有单词MP3/YD_3T.py
 
 
-6 16 9 * * /usr/bin/python3  /root/YD_mp3Cards/英语mp3单词库/3w单词/YD_3wEng.py
-6 16 9 * * /usr/bin/python3  /root/YD_mp3Cards/英语mp3单词库/国名州名市名/YD_NSC.py
-6 16 9 * * /usr/bin/python3  /root/YD_mp3Cards/英语mp3单词库/欧美常见人名/YD_uPN.py
+30 10 13 * * /usr/bin/python3  /root/JY/s18/R18_S.py
+30 10 13 * * /usr/bin/python3  /root/JY/s18/get_pic/get_P.py
+
 
 
 
