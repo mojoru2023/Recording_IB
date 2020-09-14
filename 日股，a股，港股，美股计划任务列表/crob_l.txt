@@ -22,8 +22,20 @@
 0,30  1-8 * * 1-5   /usr/local/bin/python3.6 /root/hk50_Daily.py
 
 #日股
-0 19 1,15 * *  /usr/local/bin/python3.6 /root/cronb_jspMons.py
+40 3 * * 1-5  /usr/local/bin/python3.6 /root/cronb_jspMons.py
+40 6 * * 1-5  /usr/local/bin/python3.6 /root/cronb_jspMons.py
 0,30  0-6 * * 1-5   /usr/local/bin/python3.6 /root/j_sPool_M.py
+
+
+# js 225
+40 3 * * 1-5  /usr/local/bin/python3.6 /root/cron_225_m_.py
+40 6 * * 1-5  /usr/local/bin/python3.6 /root/cron_225_m_.py
+0,30  0-6 * * 1-5   /usr/local/bin/python3.6 /root/225_m_daily.py
+
+# js400
+40 3 * * 1-5  /usr/local/bin/python3.6 /root/cron_400_m_.py
+40 6 * * 1-5  /usr/local/bin/python3.6 /root/cron_400_m_.py
+0,30  0-6 * * 1-5   /usr/local/bin/python3.6 /root/400_m_daily.py
 
 
 #FX
