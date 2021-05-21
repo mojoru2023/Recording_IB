@@ -7,3 +7,12 @@ JPNK400	JPX-Nikkei Index 400	JPNK400	JPY
 
 N225	Nikkei 225	N225	JPY
 N225M	Nikkei 225 Mini	N225M	JPY
+
+# us_js spread模型
+0,10,20,30,40,50  21-23 * * 1-5 /usr/bin/python3 /root/US_JS_SpreadM.py
+0,10,20,30,40,50  0-4  * * 2-6 /usr/bin/python3 /root/US_JS_SpreadM.py
+*/20  8-14 * * 1-5   /usr/bin/python3 /root/US_JS_SpreadM.py
+
+
+0 15 * * *  /usr/bin/python3 /root/cron_us_js_SM.py
+0 9 * * *  /usr/bin/python3 /root/cron_us_js_SM.py
